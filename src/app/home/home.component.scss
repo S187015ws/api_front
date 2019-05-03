@@ -1,0 +1,62 @@
+ .bg-content {
+    margin-top: -250px;
+  }
+  
+  .bg-content h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .bg-content h1 span {
+    font-weight: 700;
+  }
+  
+  @media (max-width: 991.98px) {
+    .bg-content h1 {
+      font-size: 36px;
+    }
+  }
+  
+
+    .bg-content h1 {
+      font-size: 45px;
+    }
+  
+  
+  @media (max-width: 414px) {
+    .bg-content h1 {
+      font-size: 40px;
+    }
+  }
+  
+  .bg-content h5 {
+    font-weight: 400;
+    letter-spacing: 3px;
+  }
+  
+  @media (max-width: 414px) {
+    .bg-content br {
+      display: none;
+    }
+  }
+
+  .bg-area {
+    background: url(../../img/bg.jpg) center;
+    background-size: cover;
+  }
+  
+  
+    .bg-area .fullscreen {
+      height: 920px !important;
+    }
+  
+  
+  @media (max-width: 768px) {
+    .bg-area {
+      background: url(../../img/bg.jpg);
+      background-position: 50% 90% 50% 50%;
+    }
+  }
